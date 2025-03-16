@@ -38,15 +38,13 @@
  - JavaScript의 자료형(Data Type)
  ```mermaid
  graph TD;
-    A[자료형(DataType)] --> B[원시 타입]
+    A[자료형] --> B[원시 타입]
     A --> C[객체 타입]
-    
     B --> B1[Number]
     B --> B2[String]
     B --> B3[Boolean]
     B --> B4[Null]
     B --> B5[Undefined]
-
     C --> D[Object]
     D --> D1[Array]
     D --> D2[Function]
@@ -159,9 +157,9 @@
 # 1.15 객체 1
  - 객체(Object) : 원시 타입이 아닌 객체 타입의 자료형
  - 여러가지 값을 동시게 저장할 수 있는 자료형을 의미
- ```
+ ```mermaid
  graph TD;
-    A[자료형(DataType)] --> B[원시 타입]
+    A[자료형] --> B[원시 타입]
     A --> C[객체 타입]
     B --> B1[Number]
     B --> B2[String]
@@ -206,9 +204,9 @@
 
 # 1.17 배열
  - 여러개의 값을 순차적으로 담을 수 있는 자료 형
- ```
+ ```mermaid
  graph TD;
-    A[배열 (Array)] --> B["값(데이터)"]
+    A[Array] --> B["값(데이터)"]
     B --> C["떡볶이"]:::box
     B --> D["초콜릿"]:::box
     B --> E["삼겹살"]:::box
